@@ -1,0 +1,8 @@
+tkcalendar
+pandas
+requests
+gspread
+oauth2client
+cryptography
+babel
+pyinstaller
