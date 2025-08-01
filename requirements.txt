@@ -1,8 +1,20 @@
-tkcalendar
-pandas
-requests
-gspread
-oauth2client
-cryptography
-babel
-pyinstaller
+import datetime
+import json
+import logging
+import os
+import shutil
+import tkinter as tk
+from datetime import timedelta, timezone
+from tkinter import messagebox, scrolledtext
+from calendar_widget import Calendar
+import gspread
+import numpy as np
+import pandas as pd
+import pytz
+import requests
+from cryptography.fernet import Fernet
+from oauth2client.service_account import ServiceAccountCredentials
+from pandas import json_normalize
+from tkcalendar import Calendar
+from datetime import datetime
+from tkinter import font as tkfont
